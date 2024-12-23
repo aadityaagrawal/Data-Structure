@@ -1,4 +1,4 @@
-public class Permutation {
+public class Subarray {
 
     public static void permutationString(String a, String newString)
     {
@@ -19,7 +19,7 @@ public class Permutation {
     }
 
     public static void main(String[] args) {
-        String a = "ABCD";
+        String a = "ABC";
         permutationString(a,"");
     }
 }
